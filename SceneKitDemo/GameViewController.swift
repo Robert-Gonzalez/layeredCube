@@ -212,6 +212,9 @@ class GameViewController: UIViewController {
         // retrieve the SCNView
         let scnView = self.view as! SCNView
         
+        
+        // test comment 1
+        
         // check what nodes are tapped
         let p = gestureRecognize.location(in: scnView)
         let hitResults = scnView.hitTest(p, options: [:])
